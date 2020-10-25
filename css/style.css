@@ -1,115 +1,42 @@
-:root {
-  --darkelectricblue: #586f7c;
-  --powderblue: #b8dbd9;
-  --charcoal: #2F4550;
-  --black: #000000;
-  --ghostwhite: #F4F4F9;
-
+.columns {
+  padding: 5% 5% 5% 5%;
 }
 
-.profile {
-  border-radius: 100%;
-  height: 250px;
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.menu {
-  position: fixed;
-  width: 35vh;
-  height: 100vh;
-  padding-top: 18%;
-  padding-left: 1%;
-  background-color: var(--darkelectricblue);
-  border-right-style: solid;
-  border-right-color: var(--powderblue);
-}
-
-.menu-item {
-  color: var(--powderblue);
-}
-
-.menu-list a {
-  color: var(--ghostwhite);
-  font-weight: 800;
-}
-
-.menu-list a:hover {
-  background-color: transparent;
-}
-
-.home {
-  margin-left: 35vh;
-  height:100vh;
-  min-height: min-content;
-  background-color: var(--darkelectricblue);
-}
-
-.profile-container {
-  padding: 15%;
+.inner-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
-.name, .me {
-  color: var(--ghostwhite);
-  font-weight: 500;
+.inner-div img {
+  padding: 5px 5px 5px 5px;
 }
 
 .name {
-  font-size: x-large;
-  font-weight: 800;
+  font-family: Rubik;
+  font-size: 36px;
+  line-height: 43px;
+  color: #B26E63;
+  margin-bottom: 32px;
 }
-
-.icons {
-  margin-top: 2%;
-}
-
-.arrow {
-  margin-top: 2%;
-}
-
 
 .about {
-  background-color: var(--ghostwhite);
-  margin-left: 35vh;
-  height:100vh;
+  font-family: Karla;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 32px;
 }
 
-.about-title {
-  color: var(--darkelectricblue);
-  font-weight: 800;
-  font-size: x-large;
-  padding-top: 5%;
-  padding-left: 10%;
+.icons-div {
+  display: flex;
 }
 
-
-@media only screen and (max-width: 770px) {
-  header {
-    visibility: hidden; 
-  }
-  
-  .profile {
-    height: 30%;
-  }
-
-  .home {
-    margin-left: 0vh;
-    padding-top: 30%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  header {
-    visibility: hidden; 
-  }
-  
-  .profile {
-    height: 50%;
-  }
-
-  .home {
-    margin-left: 0vh;
-    padding-top: 50%;
-  }
+.icons-div img {
+  margin-right: 15px;
 }
