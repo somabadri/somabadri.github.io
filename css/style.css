@@ -19,7 +19,7 @@
 
 .name {
   font-family: Rubik;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 43px;
   color: #B26E63;
   margin-bottom: 32px;
@@ -33,6 +33,11 @@
   margin-bottom: 32px;
 }
 
+.about a {
+  color: #488286;
+  font-weight: bold;
+}
+
 .icons-div {
   display: flex;
 }
@@ -40,3 +45,4 @@
 .icons-div img {
   margin-right: 15px;
 }
+
