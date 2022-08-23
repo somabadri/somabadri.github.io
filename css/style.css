@@ -18,7 +18,7 @@
 }
 
 .name {
-    font-family: Rubik;
+    font-family: Raleway;
     font-size: 35px;
     line-height: 43px;
     color: #B26E63;
@@ -26,7 +26,7 @@
 }
 
 .about {
-    font-family: Karla;
+    font-family: Lato;
     font-size: 20px;
     line-height: 28px;
     color: #333333;
@@ -49,7 +49,7 @@
 }
 
 .navbar {
-    font-family: Rubik;
+    font-family: Raleway;
     font-size: 24px;
     margin-left: 5%;
     margin-right: 5%;
@@ -64,7 +64,7 @@
 }
 
 .name-icon {
-    font-family: Rubik;
+    font-family: Raleway;
     font-size: 24px;
     cursor: pointer;
     color: #333333;
@@ -75,13 +75,13 @@
 }
 
 .project-title {
-    font-family: Rubik;
+    font-family: Raleway;
     font-size: 20px;
     color: #B26E63;
 }
 
 .project-description {
-    font-family: Karla;
+    font-family: Lato;
     font-size: 15px;
     line-height: 28px;
 }
@@ -93,7 +93,7 @@
 }
 
 .title {
-    font-family: Rubik;
+    font-family: Raleway;
     color: #B26E63;
     font-size: 30px;
     display: flex;
@@ -112,12 +112,12 @@
 }
 
 .subtitle {
-    font-family: Karla;
+    font-family: Lato;
     font-size: 20px;
 }
 
 .content {
-    font-family: Karla;
+    font-family: Lato;
     font-size: 15px;
 }
 
