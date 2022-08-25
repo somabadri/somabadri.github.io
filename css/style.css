@@ -57,11 +57,33 @@
     color: #333333;
 }
 
+.navbar-brand{
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 1023px) {
+    input[type=checkbox]:not(:checked)~ .navbar-end {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #hamburger-label{
+        display: none;
+    }
+}
+
+#hamburger-checkbox{
+    display: none;
+}    
 
 .name-icon {
     font-family: Raleway;
@@ -87,9 +109,8 @@
 }
 
 .card {
-    width: 500px;
-    margin-bottom: 60px;
-    margin-left: 60px;
+    width: 400px;
+    margin: 30px;
 }
 
 .title {
