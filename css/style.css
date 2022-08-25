@@ -38,6 +38,10 @@
     font-weight: bold;
 }
 
+.about a:hover {
+    background-color: #ededed;
+}
+
 .icons-div {
     display: flex;
     flex-direction: row;
@@ -72,6 +76,10 @@
 @media only screen and (max-width: 1023px) {
     input[type=checkbox]:not(:checked)~ .navbar-end {
         display: none;
+    }
+
+    .navbar-end{
+        background-color: #ededed
     }
 }
 
